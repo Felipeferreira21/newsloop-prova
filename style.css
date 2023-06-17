@@ -1,0 +1,35 @@
+@import url("styles/header.css");
+@import url("styles/card.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+@import url("styles/anuncio.css");
+@import url("styles/cadUsuario.css");
+@import url("styles/login.css");
+@import url("styles/sp_noticas.css  ");
+@import url("styles/noticia.css");
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --cor-texto-principal: #333333;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --preto: #000000;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans"; 
+}
+
+
+body {
+    background-color: var(--cor-de-fundo)!important;
+    font-family: var(--fonte-principal)!IMPORTANT;
+    font-size: 16px!IMPORTANT;
+    font-weight: 400!IMPORTANT;
+}
+
+
+h1{
+    background-color: white;
+}

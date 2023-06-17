@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+
+<head>
+    <meta charset='UTF-8'>
+    <!-- 
+            Viewport é a área onde seu website aparece, aqui é possível definir o viewport com a largura do dispositivo e initial-scale define o nível de zoom inicial quando o usuário visita a página. 
+        -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name="author" content="Ewerton José da Silva">
+    <meta name="description"
+        content="Venha conhecer os produtos da lanchonete BomBurguer. Oferecemos lanches, sucos e porções, além de retirada no local ou entrega.">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' href='../reset.css'>
+    <link rel='stylesheet' href='../estilos/global.css'>
+    <link rel='stylesheet' href='../estilos/nav.css'>
+    <link rel='stylesheet' href='../styles/login.css'>
+    <title>Newsloop</title>
+</head>
+
+<body>
+   
+    <div class="container__login">
+        <h1 class="titulo__cad-principal">Newsloop</h1>
+        <form id="form" class="form">
+            <input type="text" id="email" placeholder="E-mail" />
+            <input type="password" id="senha" placeholder="Senha" />
+            <div class="info">
+                <a href="./cadUsuario.html">Não tenho cadastro!</a>
+                <a href="#">Esqueci o e-mail</a>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+        <small id="info_email" class="mens">E-mail inválido</small>
+        <small id="info_senha" class="mens">Senha inválida</small>
+    </div>
+
+    <footer class="rodape">
+        <ul class="rodape__titulo">
+            <li class="rodape__titulo-item">
+                <h2 class="rodape__titulo-titulo"><b>NSL</b></h2>
+            </li>
+            <li class="rodape__titulo-item">
+                <p class="rodape__titulo-subtitulo">Ultimas notícias</p>
+            </li>
+        </ul>
+        <div class="rodape__segunda-linha">
+            <p class="rodape__segunda__copy">© Copyright 2000-2023 Newsloop Comunicação e Participações S.A</p>
+            <ul class="rodape__links">
+                <li class="rodape__links-items">
+                    <a href="#" class="rodape__links-item">Home |</a>
+                </li>
+                <li class="rodape__links-items">
+                    <a href="#" class="rodape__links-item">Fale conosco |</a>
+                </li>
+                <li class="rodape__links-items">
+                    <a href="#" class="rodape__links-item">@newsloop</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src='../scripts/login.js'></script>
+</body>
+
+</html>

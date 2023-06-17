@@ -1,0 +1,105 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --cor-texto-principal: #333333;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --preto: #000000;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans"; 
+}
+
+
+
+.rodape {
+    background: var(--preto);
+    color: var(--branco);
+    border-top: 1em solid var(--azul);
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__titulo{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+}
+
+
+.rodape__titulo-item{
+    padding: 0.5em 0.5em;
+}   
+
+
+.rodape__titulo-titulo{
+    font-weight: 700;
+}
+
+
+.rodape__titulo-subtitulo{
+    font-size: 10px;
+}
+
+
+.rodape__segunda-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0.5em;
+}
+
+
+.rodape__segunda__copy{
+    font-size: 5px;
+}
+
+
+.rodape__links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.rodape__links-items{
+    padding: 0 0 0.2em 0.2em;
+
+}
+
+
+.rodape__links-item{
+    font-size: 10px;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+
+
+@media screen and (min-width: 1024px){
+    
+    .rodape__titulo-titulo{
+        font-size: 22px;
+    }
+    
+
+    .rodape__titulo-subtitulo{
+        font-size: 15px;
+    }
+
+
+    .rodape__segunda-linha{
+
+        margin: 1.5em 0.5em 0.5em 0.5em ;
+    }
+    
+
+    .rodape__segunda__copy{
+        font-size: 10px;
+    }
+    
+    
+
+}

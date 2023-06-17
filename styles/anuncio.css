@@ -1,0 +1,14 @@
+.anuncio{
+    padding: 1em 13vw;
+    width: 70vw;
+}
+
+
+@media screen and (min-width: 1024px){
+    .anuncio{
+        margin: 0 10vw;
+        height: 10vw;
+        width: 50vw;    
+    }
+
+}
